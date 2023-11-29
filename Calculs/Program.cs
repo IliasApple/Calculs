@@ -52,17 +52,7 @@ namespace Calculs
                         }
                     }
                     else
-                    {
-                        // choix de la multiplication
-                        // saisie de la réponse
-                        Console.Write(val1 + " x " + val2 + " = ");
-                        reponse = int.Parse(Console.ReadLine());
-                        // comparaison avec la bonne réponse
-                        solution = val1 * val2;
-                        if (reponse == solution)
-                        {
-                            Console.WriteLine("Bravo !");
-                        }
+    
                         else
                         {
                             Console.WriteLine("Faux : " + val1 + " x " + val2 + " = " + solution);
